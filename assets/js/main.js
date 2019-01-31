@@ -1,4 +1,4 @@
-function calculateTip(amount, satisfaction) {
+calculateTip = (amount, satisfaction) => {
     const tip = amount * satisfaction;
     return tip;
 }
