@@ -12,30 +12,32 @@
     <header>
         <h1>Tip Calculator</h1>
     </header>
-    <div id="userInterfaceForm">
-        <label for="currency">Currency</label>
-        <select name="currency" id="userCurrency">
-            <option value="€">€ (Euro)</option>
-            <option value="$">$ (US Dollar)</option>
-            <option value="£">£ (Britsh Pound)</option>
-            <option value="¥">¥ (Yen)</option>
-        </select>
-        <label for="amount">Amount</label>
-        <input type="number" name="amount" id="userAmount">
-        <label for="satisfactionLevel">Satisfaction level</label>
-        <select name="satisfactionLevel" id="userSatisfactionLevel">
-            <option value="excellent">Excellent</option>
-            <option value="veryGood">Very Good</option>
-            <option value="good">Good</option>
-            <option value="ok">Ok</option>
-            <option value="bad">Bad</option>
-            <option value="veryBad">Very Bad</option>
-        </select>
-        <input type="submit" value="Calculate Tip" class="button" onclick="calculateTip()">
-    </div>
-    <div id="messageOutput">
-    </div>
-    <input type="submit" value="New Calculation" class="button" id="reloadButton" onclick="showForm()">
+    <main>
+        <section id="userInterfaceForm">
+            <label for="currency">Currency</label>
+            <select name="currency" id="userCurrency">
+                <option value="€">€ (Euro)</option>
+                <option value="$">$ (US Dollar)</option>
+                <option value="£">£ (Britsh Pound)</option>
+                <option value="¥">¥ (Yen)</option>
+            </select>
+            <label for="amount">Amount</label>
+            <input type="number" name="amount" id="userAmount">
+            <label for="satisfactionLevel">Satisfaction level</label>
+            <select name="satisfactionLevel" id="userSatisfactionLevel">
+                <option value="excellent">Excellent</option>
+                <option value="veryGood">Very Good</option>
+                <option value="good">Good</option>
+                <option value="ok">Ok</option>
+                <option value="bad">Bad</option>
+                <option value="veryBad">Very Bad</option>
+            </select>
+            <input type="submit" value="Calculate Tip" class="button" onclick="calculateTip()">
+            </sectiion>
+            <section id="messageOutput">
+            </section>
+            <input type="submit" value="New Calculation" class="button" id="reloadButton" onclick="showForm()">
+    </main>
     <script src="assets/js/main.js"></script>
 </body>
 
