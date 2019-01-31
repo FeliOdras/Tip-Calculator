@@ -9,3 +9,8 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   background-position: center; }
+
+header {
+  background-color: #2F0000;
+  padding: 15px;
+  text-align: center; }
