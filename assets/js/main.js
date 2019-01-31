@@ -1,5 +1,7 @@
-calculateTip = (amount, satisfactionLevel) => {
-    const tip = amount * satisfactionLevel;
-    return tip;
+calculateTip = () => {
+    const getUserCurrency = document.getElementById('userCurrency').value;
+    const getUserAmount = document.getElementById('userAmount').value;
+    const getUserSatisfactionLevel = document.getElementById('userSatisfactionLevel').value;
+
 }
-console.log(calculateTip(20, .10))
+calculateTip()

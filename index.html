@@ -10,7 +10,7 @@
 
 <body>
     <div id="userInterfaceForm">
-        <form>
+        <form onsubmit="return false;">
             <label for="currency">Currency</label>
             <select name="currency" id="userCurrency">
                 <option>--- Choose a currency ---</option>
@@ -22,7 +22,7 @@
             </select>
             <label for="amount">Amount</label>
             <input type="number" name="amount" id="userAmount">
-            <label for="satisfaction">Satisfaction level</label>
+            <label for="satisfactionLevel">Satisfaction level</label>
             <select name="satisfactionLevel" id="userSatisfactionLevel">
                 <option value="execellent">Excellent</option>
                 <option value="veryGood">Very Good</option>
@@ -31,8 +31,7 @@
                 <option value="bad">bad</option>
                 <option value="veryBad">Very Bad</option>
             </select>
-            <input type="submit" value="Calculate Tip" class="button">
-        </form>
+            <input type="submit" value="Calculate Tip" class="button" onclick="calculateTip()">
     </div>
     <script src="assets/js/main.js"></script>
 </body>
