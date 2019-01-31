@@ -9,6 +9,15 @@
     font-family: 'Gaegu', cursive;
     color: #2F0000;
 
+    @media screen and (max-width: 750px) {
+        width: 75%;
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 95%;
+    }
+
+
     .form-item {
         margin: 10px 0;
 
@@ -36,11 +45,15 @@
 
 
         }
+    }
 
-        input.button {
-            width: 70%;
-            color: #F3E7E7;
-            background-color: #230000;
-        }
+    input.button {
+        width: 70%;
+        color: #F3E7E7;
+        background-color: #230000;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border-radius: 7px;
+        border: none;
     }
 }

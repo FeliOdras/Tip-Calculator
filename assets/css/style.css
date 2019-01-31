@@ -39,6 +39,12 @@ main {
   border-radius: 5px;
   font-family: 'Gaegu', cursive;
   color: #2F0000; }
+  @media screen and (max-width: 750px) {
+    #userInterfaceForm {
+      width: 75%; } }
+  @media screen and (max-width: 450px) {
+    #userInterfaceForm {
+      width: 95%; } }
   #userInterfaceForm .form-item {
     margin: 10px 0; }
     #userInterfaceForm .form-item label {
@@ -59,7 +65,11 @@ main {
         #userInterfaceForm .form-item input,
         #userInterfaceForm .form-item select {
           width: 100%; } }
-    #userInterfaceForm .form-item input.button {
-      width: 70%;
-      color: #F3E7E7;
-      background-color: #230000; }
+  #userInterfaceForm input.button {
+    width: 70%;
+    color: #F3E7E7;
+    background-color: #230000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none; }
