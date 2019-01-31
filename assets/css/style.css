@@ -30,10 +30,33 @@ main {
   margin-top: 10vh;
   background-color: rgba(243, 231, 231, 0.6);
   width: 50%;
-  min-width: 300px;
   margin: 10vh auto 10px;
   border: 2px solid #2F0000;
   padding: 20px;
   border-radius: 5px;
   font-family: 'Gaegu', cursive;
   color: #2F0000; }
+  #userInterfaceForm .form-item {
+    margin: 10px 0; }
+    #userInterfaceForm .form-item label {
+      width: 35%;
+      text-align: left;
+      float: left;
+      clear: both; }
+      @media screen and (max-width: 750px) {
+        #userInterfaceForm .form-item label {
+          float: none;
+          width: 100%; } }
+    #userInterfaceForm .form-item input,
+    #userInterfaceForm .form-item select {
+      width: 50%;
+      font-family: 'Gaegu', cursive;
+      background-color: #F3E7E7; }
+      @media screen and (max-width: 750px) {
+        #userInterfaceForm .form-item input,
+        #userInterfaceForm .form-item select {
+          width: 100%; } }
+    #userInterfaceForm .form-item input.button {
+      width: 70%;
+      color: #F3E7E7;
+      background-color: #230000; }
