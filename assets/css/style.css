@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Gaegu|Lakki+Reddy");
+@import url("https://fonts.googleapis.com/css?family=Gaegu|Lakki+Reddy|Pacifico");
 * {
   margin: 0;
   padding: 0;
@@ -87,3 +87,24 @@ section {
           width: 100%; } }
     section .form-item input.button {
       background-color: #230000; }
+
+footer {
+  background-color: rgba(47, 0, 0, 0.8);
+  padding: 8px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw; }
+  footer p {
+    font-size: .8rem;
+    font-family: 'Gaegu', cursive;
+    color: #E7D0D0;
+    display: inline-block; }
+  footer .hotpink {
+    background-color: hotpink;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+    font-size: .9rem;
+    float: right; }
