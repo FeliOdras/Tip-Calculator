@@ -1,6 +1,6 @@
 calculateTip = () => {
     const getUserCurrency = document.getElementById('userCurrency').value;
-    const getUserAmount = document.getElementById('userAmount').value;
+    const getUserAmount = parseInt(document.getElementById('userAmount').value);
     const getUserSatisfactionLevel = document.getElementById('userSatisfactionLevel').value;
 
     if (getUserSatisfactionLevel == 'excellent') {
@@ -22,6 +22,11 @@ calculateTip = () => {
         tipCalculationValue = 0;
         tipCalculationPercentage = 0;
     }
+    console.log(getUserAmount);
+    const tipCalculatedValue = getUserAmount * tipCalculationValue;
+    const finalResult = getUserAmount + tipCalculatedValue;
     console.log(tipCalculationValue);
+    console.log(tipCalculatedValue);
+    console.log(finalResult);
 }
 calculateTip()
