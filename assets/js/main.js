@@ -22,15 +22,18 @@ calculateTip = () => {
         tipCalculationValue = 0;
         tipCalculationPercentage = 0;
     }
-    console.log(getUserAmount);
     const tipCalculatedValue = getUserAmount * tipCalculationValue;
     const finalResult = getUserAmount + tipCalculatedValue;
-    console.log(getUserCurrency);
 
     try {
         if (isNaN(getUserAmount)) throw "Your amount should be a number.";
     } catch (error) {
         alert(error);
     }
+
+    const finalOutput = `Your <strong>Amount</strong> is <span class="color-amount">${getUserAmount} ${getUserCurrency}.<br>
+    Your satifaction level is ${getUserSatisfactionLevel}, so your <strong>Tip</strong> should be ${tipCalculationPercentage}%. This is <span class="color-tip">${tipCalculatedValue} ${getUserCurrency}.<br>
+    Your <strong>Total</strong> is <span class="color-total">${finalResult}.`
+    finalOutput
 }
 calculateTip()
