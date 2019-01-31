@@ -1,9 +1,5 @@
-createUserInterface = () => {
-
-}
-
-calculateTip = (amount, satisfaction) => {
-    const tip = amount * satisfaction;
+calculateTip = (amount, satisfactionLevel) => {
+    const tip = amount * satisfactionLevel;
     return tip;
 }
 console.log(calculateTip(20, .10))
