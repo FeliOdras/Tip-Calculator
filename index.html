@@ -10,7 +10,29 @@
 
 <body onload="createUserInterface()">
     <div id="userInterfaceForm">
-
+        <form>
+            <label for="currency">Currency</label>
+            <select name="currency" id="userCurrency">
+                <option>--- Choose a currency ---</option>
+                <option value="€">€ (Euro)</option>
+                <option value="$">$ (US Dollar)</option>
+                <option value="£">£ (Britsh Pound)</option>
+                <option value="¥">¥ (Yen)</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="amount">Amount</label>
+            <input type="number" name="amount" id="userAmount">
+            <label for="satisfaction">Satisfaction level</label>
+            <select name="satisfactionLevel" id="userSatisfactionLevel">
+                <option value="execellent">Excellent</option>
+                <option value="veryGood">Very Good</option>
+                <option value="good">Good</option>
+                <option value="ok">Ok</option>
+                <option value="bad">bad</option>
+                <option value="veryBad">Very Bad</option>
+            </select>
+            <input type="submit" value="Calculate Tip" class="button">
+        </form>
     </div>
     <script src="assets/js/main.js"></script>
 </body>
