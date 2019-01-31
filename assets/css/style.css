@@ -19,3 +19,9 @@ header {
     font-family: 'Lakki Reddy', cursive;
     font-weight: normal;
     color: #E7D0D0; }
+
+main {
+  padding: 20px 10px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center; }
