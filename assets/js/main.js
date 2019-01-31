@@ -25,8 +25,12 @@ calculateTip = () => {
     console.log(getUserAmount);
     const tipCalculatedValue = getUserAmount * tipCalculationValue;
     const finalResult = getUserAmount + tipCalculatedValue;
-    console.log(tipCalculationValue);
-    console.log(tipCalculatedValue);
-    console.log(finalResult);
+    console.log(getUserCurrency);
+
+    try {
+        if (isNaN(getUserAmount)) throw "Your amount should be a number.";
+    } catch (error) {
+        alert(error);
+    }
 }
 calculateTip()
