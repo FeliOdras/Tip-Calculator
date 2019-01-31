@@ -47,7 +47,7 @@ calculateTip = () => {
     }
 }
 
-reloadForm = () => {
+showForm = () => {
     document.getElementById("messageOutput").style.display = "none";
     document.getElementById("userInterfaceForm").style.display = "block";
     document.getElementById("reloadButton").style.display = "none";

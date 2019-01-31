@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tip Calculator</title>
 </head>
 
 <body onload="hideOutputArea()">
+    <header>
+        <h1>Tip Calculator</h1>
+    </header>
     <div id="userInterfaceForm">
         <label for="currency">Currency</label>
         <select name="currency" id="userCurrency">
@@ -32,7 +35,7 @@
     </div>
     <div id="messageOutput">
     </div>
-    <input type="submit" value="New Calculation" class="button" id="reloadButton" onclick="reloadForm()">
+    <input type="submit" value="New Calculation" class="button" id="reloadButton" onclick="showForm()">
     <script src="assets/js/main.js"></script>
 </body>
 
