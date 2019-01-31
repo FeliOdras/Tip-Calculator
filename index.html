@@ -11,6 +11,7 @@
 <body>
     <div id="userInterfaceForm">
         <form method="GET" onsubmit="return false;">
+            <label for="currency">Currency</label>
             <select name="currency">
                 <option>--- Choose a currency ---</option>
                 <option value="€">€ (Euro)</option>
@@ -19,6 +20,8 @@
                 <option value="¥">¥ (Yen)</option>
                 <option value="other">Other</option>
             </select>
+            <label for="amount">Amount</label>
+            <input type="number" name="amount">
         </form>
     </div>
     <script src="assets/js/main.js"></script>
