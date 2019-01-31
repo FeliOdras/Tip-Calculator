@@ -1,3 +1,7 @@
+createUserInterface = () => {
+
+}
+
 calculateTip = (amount, satisfaction) => {
     const tip = amount * satisfaction;
     return tip;
