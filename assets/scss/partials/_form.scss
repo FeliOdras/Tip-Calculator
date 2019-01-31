@@ -1,4 +1,4 @@
-#userInterfaceForm {
+section {
     margin-top: 10vh;
     background-color: rgba(243, 231, 231, 0.6);
     width: 50%;
@@ -45,15 +45,5 @@
 
 
         }
-    }
-
-    input.button {
-        width: 70%;
-        color: #F3E7E7;
-        background-color: #230000;
-        font-size: 1.3rem;
-        font-weight: bold;
-        border-radius: 7px;
-        border: none;
     }
 }
