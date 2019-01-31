@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="hideOutputArea()">
     <div id="userInterfaceForm">
         <label for="currency">Currency</label>
         <select name="currency" id="userCurrency">
@@ -30,6 +30,9 @@
         </select>
         <input type="submit" value="Calculate Tip" class="button" onclick="calculateTip()">
     </div>
+    <div id="messageOutput">
+    </div>
+    <input type="submit" value="New Calculation" class="button" id="reloadButton" onclick="reloadForm()">
     <script src="assets/js/main.js"></script>
 </body>
 
