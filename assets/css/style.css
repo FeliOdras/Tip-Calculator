@@ -39,6 +39,15 @@ main {
     margin: auto;
     max-width: 400px;
     font-family: 'Gaegu', cursive; }
+  main .color-amount {
+    color: #D62246;
+    font-weight: bold; }
+  main .color-tip {
+    color: #4E5951;
+    font-weight: bold; }
+  main .color-total {
+    color: #17BEBB;
+    font-weight: bold; }
 
 section {
   margin-top: 10vh;
@@ -76,3 +85,5 @@ section {
         section .form-item input,
         section .form-item select {
           width: 100%; } }
+    section .form-item input.button {
+      background-color: #230000; }

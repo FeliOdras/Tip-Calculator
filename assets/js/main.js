@@ -32,9 +32,9 @@ calculateTip = () => {
     const finalResult = getUserAmount + tipCalculatedValue;
 
 
-    const finalOutput = `Your <strong>Amount</strong> is <span class="color-amount">${getUserAmount} ${getUserCurrency}.<br>
-    Your satifaction level is ${getUserSatisfactionLevel}, so your <strong>Tip</strong> should be ${tipCalculationPercentage}%. This is <span class="color-tip">${tipCalculatedValue} ${getUserCurrency}.<br>
-    Your <strong>Total</strong> is <span class="color-total">${finalResult} ${getUserCurrency}.<br>`
+    const finalOutput = `Your <strong>Amount</strong> is <span class="color-amount">${getUserAmount} ${getUserCurrency}</span>.<br>
+    Your <strong>Satifaction Level</strong> is ${getUserSatisfactionLevel}, so your <strong>Tip</strong> should be ${tipCalculationPercentage}%. This is <span class="color-tip">${tipCalculatedValue} ${getUserCurrency}</span>.<br>
+    Your <strong>Total</strong> is <span class="color-total">${finalResult} ${getUserCurrency}</span>.<br>`
 
     if (isNaN(getUserAmount)) {
         document.getElementById("userInterfaceForm").style.display = "block";
