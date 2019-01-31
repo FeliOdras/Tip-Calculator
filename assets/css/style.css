@@ -41,13 +41,16 @@ main {
     font-family: 'Gaegu', cursive; }
   main .color-amount {
     color: #D62246;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 1.3rem; }
   main .color-tip {
     color: #4E5951;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 1.3rem; }
   main .color-total {
-    color: #17BEBB;
-    font-weight: bold; }
+    color: #094644;
+    font-weight: bold;
+    font-size: 1.3rem; }
 
 section {
   margin-top: 10vh;
