@@ -103,6 +103,8 @@ footer {
     font-family: 'Gaegu', cursive;
     color: #E7D0D0;
     display: inline-block; }
+  footer a {
+    color: #E7D0D0; }
   footer .hotpink {
     background-color: hotpink;
     color: #fff;
